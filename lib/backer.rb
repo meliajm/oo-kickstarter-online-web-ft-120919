@@ -1,6 +1,7 @@
 class Backer 
   
-  attr_accessor :name, :backed_projected
+  attr_accessor :name
+  attr_accessor :backed_projected
   
   def initialize(name)
     @name = name
