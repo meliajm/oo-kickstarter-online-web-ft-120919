@@ -1,7 +1,10 @@
 class Backer 
   
-  def initialize
-    
+  attr_accessor :name 
+  
+  def initialize(name)
+    @name = name
+    @backed_projected = []
   end
   
   
